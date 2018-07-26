@@ -357,19 +357,19 @@ if(!ReBeL.voiceChannel) {
 client.on("ready", async  => {
 setInterval(function(){
 client.channels.find('id', '471784805026103317').setName("「.W");
-client.channels.find('id', '471784805026103317').setName("We");
-client.channels.find('id', '471784805026103317').setName("Wel");
-client.channels.find('id', '471784805026103317').setName("Welc");
-client.channels.find('id', '471784805026103317').setName("Welco");
-client.channels.find('id', '471784805026103317').setName("Welcom");
-client.channels.find('id', '471784805026103317').setName("Welcome");
-client.channels.find('id', '471784805026103317').setName("Welcome T");
-client.channels.find('id', '471784805026103317').setName("Welcome To");
-client.channels.find('id', '471784805026103317').setName("Welcome To N");
-client.channels.find('id', '471784805026103317').setName("Welcome To NS");
-client.channels.find('id', '471784805026103317').setName("Welcome To NSF");
-client.channels.find('id', '471784805026103317').setName("Welcome To NSF C");
-client.channels.find('id', '471784805026103317').setName("Welcome To NSF CLAN .」");
+client.channels.find('id', '471784805026103317').setName("「.We");
+client.channels.find('id', '471784805026103317').setName("「.Wel");
+client.channels.find('id', '471784805026103317').setName("「.Welc");
+client.channels.find('id', '471784805026103317').setName("「.Welco");
+client.channels.find('id', '471784805026103317').setName("「.Welcom");
+client.channels.find('id', '471784805026103317').setName("「.Welcome");
+client.channels.find('id', '471784805026103317').setName("「.Welcome T");
+client.channels.find('id', '471784805026103317').setName("「.Welcome To");
+client.channels.find('id', '471784805026103317').setName("「.Welcome To N");
+client.channels.find('id', '471784805026103317').setName("「.Welcome To NS");
+client.channels.find('id', '471784805026103317').setName("「.Welcome To NSF");
+client.channels.find('id', '471784805026103317').setName("「.Welcome To NSF C");
+client.channels.find('id', '471784805026103317').setName("「.Welcome To NSF CLAN .」");
   }, 3000);
 });
 

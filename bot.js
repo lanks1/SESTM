@@ -368,8 +368,8 @@ client.channels.find('id', '471784805026103317').setName("「.Welcome To");
 client.channels.find('id', '471784805026103317').setName("「.Welcome To N");
 client.channels.find('id', '471784805026103317').setName("「.Welcome To NS");
 client.channels.find('id', '471784805026103317').setName("「.Welcome To NSF");
-client.channels.find('id', '471784805026103317').setName("「.Welcome To NSF C");
-client.channels.find('id', '471784805026103317').setName("「.Welcome To NSF CLAN .」");
+client.channels.find('id', '471784805026103317').setName("「.Welcome To NSF ");
+client.channels.find('id', '471784805026103317').setName("「.Welcome To NSF .」");
   }, 3000);
 });
 

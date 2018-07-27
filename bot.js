@@ -141,9 +141,9 @@ client.on('guildMemberRemove', member => {
     .setDescription(`**__اقفل الباب وراك يا عسل__ :clap:**`)
     .addField(':bust_in_silhouette:   تبقي',`**[ ${member.guild.memberCount} ]**`,true)
     .setColor('RED')
-    .setFooter(`S7Q Bot`, '')
+    .setFooter(`NSF Bot`, '')
 
-var channel =member.guild.channels.find('name', 'ترحيب')
+var channel =member.guild.channels.find('name', 'chat')
 if (!channel) return;
 channel.send({embed : embed});
 });
@@ -279,7 +279,7 @@ if(!check.voiceChannelID){
   rebel++;
 }
 }
-guild.channels.find('id', '472146305859452969').setName(" . "+rebel+" عدد الاعضاء في الرومات");
+guild.channels.find('id', '472146305859452969').setName(" Online Voice「"+rebel+"」");
   client.setInterval(() =>{
     let d = Date.now()
   }, 5000);
@@ -290,16 +290,16 @@ let newUserChannel = newMember.voiceChannel
 let oldUserChannel = oldMember.voiceChannel
  if(oldUserChannel === undefined && newUserChannel !== undefined) {
    rebel++;
-guild.channels.find('id', '472146305859452969').setName(" . "+rebel+" عدد الاعضاء في الرومات");
+guild.channels.find('id', '472146305859452969').setName(" Online Voice「"+rebel+"」");
 } else if(newUserChannel === undefined){
   rebel--;
-guild.channels.find('id', '472146305859452969').setName(" . "+rebel+" عدد الاعضاء في الرومات");
+guild.channels.find('id', '472146305859452969').setName(" Online Voice「"+rebel+"」");
 }
 });
 client.on('message', Codes => {
   
   if(Codes.content === "!صوت") {
-      Codes.channel.send("  . "+rebel+" عدد الاعضاء في الرومات");
+      Codes.channel.send(" Online Voice「"+rebel+"」 ");
 }
 });
 
@@ -330,28 +330,9 @@ if (msg.content.startsWith(`!report`)) {
 
 
 
-client.on ("guildMemberAdd", member => {
-
-   var role = member.guild.roles.find ("name", "- S7Q | VISTORY");
-   member.addRole (role);
-
-});
 
 
-  client.on('voiceStateUpdate', (codes, ReBeL) => {
-if(ReBeL.voiceChannelID !== "472082257952374786") return console.log("حمو");
-ReBeL.guild.createChannel(ReBeL.user.username , 'voice').then((rebeeel) =>{
-    rebeeel.setParent("471357078439591956");
-ReBeL.guild.members.get(ReBeL.id).setVoiceChannel(rebeeel.id).then((codess) =>{
-  console.log("تــــــم .");
-  let scan = setInterval(()=>{
-if(!ReBeL.voiceChannel) {
-  rebeeel.delete();
-}
-  }, 1700);
-});
-});
-});
+
   
 
 client.on("ready", async  => {

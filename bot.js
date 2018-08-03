@@ -56,7 +56,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`NSF,~THE~BEST`,"http://twitch.tv/S-F")
+client.user.setGame(`NSF,~THE~BEST ON ${client.guilds.size} Servers`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 

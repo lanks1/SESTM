@@ -337,20 +337,20 @@ if (msg.content.startsWith(`!report`)) {
 
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '471784805026103317').setName("「.W");
-client.channels.find('id', '471784805026103317').setName("「.We");
-client.channels.find('id', '471784805026103317').setName("「.Wel");
-client.channels.find('id', '471784805026103317').setName("「.Welc");
-client.channels.find('id', '471784805026103317').setName("「.Welco");
-client.channels.find('id', '471784805026103317').setName("「.Welcom");
-client.channels.find('id', '471784805026103317').setName("「.Welcome");
-client.channels.find('id', '471784805026103317').setName("「.Welcome T");
-client.channels.find('id', '471784805026103317').setName("「.Welcome To");
-client.channels.find('id', '471784805026103317').setName("「.Welcome To N");
-client.channels.find('id', '471784805026103317').setName("「.Welcome To NS");
-client.channels.find('id', '471784805026103317').setName("「.Welcome To NSF");
-client.channels.find('id', '471784805026103317').setName("「.Welcome To NSF ");
-client.channels.find('id', '471784805026103317').setName("「.Welcome To NSF .」");
+client.channels.find('id', '475070301940613141').setName("「.W");
+client.channels.find('id', '475070301940613141').setName("「.We");
+client.channels.find('id', '475070301940613141').setName("「.Wel");
+client.channels.find('id', '475070301940613141').setName("「.Welc");
+client.channels.find('id', '475070301940613141').setName("「.Welco");
+client.channels.find('id', '475070301940613141').setName("「.Welcom");
+client.channels.find('id', '475070301940613141').setName("「.Welcome");
+client.channels.find('id', '475070301940613141').setName("「.Welcome T");
+client.channels.find('id', '475070301940613141').setName("「.Welcome To");
+client.channels.find('id', '475070301940613141').setName("「.Welcome To N");
+client.channels.find('id', '475070301940613141').setName("「.Welcome To NS");
+client.channels.find('id', '475070301940613141').setName("「.Welcome To NSF");
+client.channels.find('id', '475070301940613141').setName("「.Welcome To NSF ");
+client.channels.find('id', '475070301940613141').setName("「.Welcome To NSF .」");
   }, 3000);
 });
 

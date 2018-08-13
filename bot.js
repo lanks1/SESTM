@@ -115,13 +115,7 @@ client.on("message", message => {
 };     
 });
 
-client.on("guildMemberAdd", member => {
-  member.createDM().then(function (channel) {
-  return channel.send(`「.🔱 Welcome TO CLAN HD 🔱.」شيڪ عڵي قوٱنين ٱڵڪڵٱن #rules 
-:crown:اسم العضو  ${member}:crown:  
-انت العضو رقم ${member.guild.memberCount} `) 
-}).catch(console.error)
-})
+
 
 client.on('ready', () => {
    console.log(`----------------`);
